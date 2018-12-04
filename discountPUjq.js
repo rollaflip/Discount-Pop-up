@@ -9,45 +9,43 @@ $(function() {
 
     const summonModal = () => {
       //add class to body,   contains grey filter and modal
+      $("body").append("<div id='screenBlur'><div id='box'>Popup yo!</div></div>");
 
-      var modScreen = document.createElement('screenGrey'); // Create a <div> element
-      var modBox = document.createElement('box'); // Create a <div> element
-      var t = document.createTextNode('CLICK ME'); // Create a text node
+      // $('#screenBlur').append("<div id='box'>Popup yo!</div>");
+      // Append the box
 
-      modScreen.appendChild(modBox); // Append the text to <button>
-      modBox.appendChild(t); // Append the text to <button>
-      document.body.appendChild(modScreen);
 
-      // $('#screenGrey').css({
-      //   opacity: 0.7,
-      //   width: $(document).width(),
-      //   height: $(document).height(),
-      //   position: 'absolute',
-      //   left: '0',
-      //   top: '0',
-      //   background: '#000',
-      // });
 
-      // $('body').css({
-      //   overflow: 'hidden',
+      $('#screenBlur').css({
+        opacity: 0.7,
+        width: $(document).width(),
+        height: $(document).height(),
+        position: 'absolute',
+        left: '0',
+        top: '0',
+        background: '#000',
+      });
 
-      // });
+      $('body').css({
+        overflow: 'hidden',
 
-      // $('#box').css({
-      // display : 'block' ,
-      // 'width': '150px',
-      //     height: '150px',
-      //     background: '#FFF',
-      //     border: 'red dotted 5px',
-      //     'text-align': 'center',
-      //     position: 'absolute',
-      //     'margin-left': '-75px',
-      //     'margin-top': '-75px',
-      //     left: '50%',
-      //     top: '50%',
-      //     'z-index': '20',
+      });
 
-      // });
+      $('#box').css({
+      display : 'block' ,
+      'width': '150px',
+          height: '150px',
+          background: '#FFF',
+          border: 'red dotted 5px',
+          'text-align': 'center',
+          position: 'absolute',
+          'margin-left': '-75px',
+          'margin-top': '-75px',
+          left: '50%',
+          top: '50%',
+          'z-index': '9999999999',
+
+      });
     };
 
     //fire off modal instead of alert
