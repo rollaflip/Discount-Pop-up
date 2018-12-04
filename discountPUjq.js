@@ -9,9 +9,9 @@ $(function() {
 
     const summonModal = () => {
       //add class to body,   contains grey filter and modal
-      $("body").append("<div id='screenBlur'><div id='box'>Popup yo!</div></div>");
+      $("body").append("<div id='screenBlur'></div>");
 
-      // $('#screenBlur').append("<div id='box'>Popup yo!</div>");
+      $('body').append("<div id='box'>Popup yo!</div>");
       // Append the box
 
 
@@ -32,18 +32,18 @@ $(function() {
       });
 
       $('#box').css({
-      display : 'block' ,
-      'width': '150px',
-          height: '150px',
-          background: '#FFF',
-          border: 'red dotted 5px',
-          'text-align': 'center',
-          position: 'absolute',
-          'margin-left': '-75px',
-          'margin-top': '-75px',
-          left: '50%',
-          top: '50%',
-          'z-index': '9999999999',
+        'width': '350px',
+        height: '350px',
+        background: '#FFF',
+        border: 'rgba(17, 0, 255, 0.822) solid 5px',
+        'text-align': 'center',
+        position: 'absolute',
+        'margin-left': '-175px',
+        'margin-top': '-175px',
+        left: '50%',
+        top: '50%',
+        'z-index': '9999999999',
+        display : 'block' ,
 
       });
     };
