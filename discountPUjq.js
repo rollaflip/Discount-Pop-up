@@ -1,23 +1,17 @@
 const dealTime = () => {
-  let itemName = document.getElementsByClassName('product-name');
-  let productName = itemName[0].innerText;
-
-  let itemPrice = document.getElementsByClassName('price-sales');
-  let productPrice = itemPrice[0].innerHTML
-
+  let productName = $('.product-name').html()
+  let productPrice = $('.price-sales').html()
   let discountedPrice = productPrice.slice(2)*.85
-
   let cart = 'https://www.marmot.com/checkout';
+
   let message = `Get this ${productName} for $${discountedPrice} with a 15% discount!`;
 
   window.alert(message);
+  return productName
 };
 
-let sizeDiv = document.getElementsByClassName("swatchanchor");
-
-    for(let singleSizeDiv of sizeDiv)    singleSizeDiv.addEventListener('click', dealTime, true);
-
-
+let sizeDiv = $('.swatchanchor');
+  for(let singleSizeDiv of sizeDiv)    singleSizeDiv.addEventListener('click', dealTime, true);
 
 
 
