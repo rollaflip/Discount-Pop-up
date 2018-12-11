@@ -16,7 +16,9 @@ Purpose: Using the website marmot.com, write some JavaScript or jQuery code that
 
 ### To run Discount Pop-up in your browser:
 ```
-`Copy & paste the code from Ian Knepper- Interactive Front End- Challenge-2.js and paste into the console of your browser in inspect mode. Hit enter.  Click on any available size for a product.
+`Copy & paste the code from Ian Knepper- Interactive Front End- Challenge-2.js `paste into the console of your browser in inspect mode.
+`Hit enter.
+`Click on any available size for a product.
 ```
 
 
