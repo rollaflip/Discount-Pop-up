@@ -16,7 +16,7 @@ Purpose: Using the website marmot.com, write some JavaScript or jQuery code that
 
 ### To run Discount Pop-up in your browser:
 ```
-Go to marmot.com and click on a product or simply follow this link: (https://www.marmot.com/shadow-jacket/71800.html)
+Go to marmot.com and click on a product or simply follow this link: https://www.marmot.com/shadow-jacket/71800.html
 ```
 ```
 Copy the code from Ian Knepper- Interactive Front End- Challenge-2.js
