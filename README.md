@@ -2,7 +2,7 @@
 #### By Ian Knepper
 ## Logic to that triggers a pop-up to inform users of deals &amp; coupons
 
-Purpose: Using the website marmot.com, JavaScript and jQuery code that can be run in the console of the browser on any product page.<br>
+Purpose: Using the website marmot.com, I wrote JavaScript and jQuery code that can be run in the console of the browser on any product page.<br>
 
 ## The code does following:<br>
 
